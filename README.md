@@ -38,49 +38,8 @@ Las tablas utilizadas son: `postings`, `company_industries`, `industries`, `job_
 - Existe una desconexión entre oferta y demanda: algunos puestos con muchas vacantes generan poco interés (vistas), y viceversa.
 - El beneficio más común en las ofertas de EE. UU. es el plan de pensiones **401(k)**, seguido del seguro médico.
 
-## 📈 Ejemplos de visualización
-
-- Mapa interactivo de densidad de ofertas por región (Plotly).
-- Gráficos de barras de industrias por número de empresas y visualizaciones.
-- Heatmap de relación entre tipo de puesto y beneficios ofrecidos.
-
-*(Añade aquí capturas de pantalla del mapa y del heatmap una vez subido el repo — se ven muy bien como primera impresión del proyecto)*
 
 ## 💻 Tecnologías
 
 `Python` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Plotly`
 
-## 🚀 Cómo ejecutarlo
-
-```bash
-# Clona el repositorio
-git clone https://github.com/DavidPPLAZA/<nombre-repo>.git
-cd <nombre-repo>
-
-# Instala las dependencias
-pip install pandas numpy seaborn matplotlib plotly
-
-# Abre el notebook
-jupyter notebook FUNDAMENTOS_PARA_EL_ANALISIS_DE_DATOS_Y_LA_INTELIGENCIA_ARTIFICIAL.ipynb
-```
-
-## 📁 Estructura del repositorio
-
-```
-📁 linkedin-jobs-analysis/
-├── README.md
-├── notebook.ipynb
-└── data/
-    ├── postings.csv
-    ├── company_industries.csv
-    ├── industries.csv
-    ├── job_industries.csv
-    ├── job_skills.csv
-    ├── skills.csv
-    ├── benefits.csv
-    └── zip_lat_long.csv
-```
-
-## 📄 Licencia
-
-Proyecto con fines académicos. Los datos pertenecen a sus autores originales en Kaggle y se usan bajo su licencia correspondiente.
